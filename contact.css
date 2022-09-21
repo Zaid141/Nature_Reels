@@ -1,0 +1,163 @@
+a{
+    color: white;
+    text-decoration: none;
+}
+
+*{ /*setting margin, padding and font for the entire webpage*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{ /*creating header*/
+    background-color:white;
+    background-size:cover;
+    background-position:center;
+}
+.main{ /*setting color for the background*/
+    background-color: #164025;
+}
+.icon{ /*nature feels icon adjustment*/
+    height: 60px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+
+
+ul{ /*for the header and sub webpages*/
+    margin-top: 25px;
+    transform: scale(1.5);
+    left: 850px;
+    bottom: 25px;
+    position:relative;
+    min-width: 1px;
+    display: inline-block;
+    padding: 0;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.header_{
+    border: 1px solid transparent;
+    padding:5px 20px;
+    text-decoration:none;
+    transition: 0.6 ease;
+}
+
+.header_:hover{ /*change color when hovered upon*/
+    background-color:#5FB6A2;
+}
+ 
+ul li.active{ /*color remains changed for the webpage you are on*/
+    background-color:#5FB6A2;
+}
+
+.website-name{ /*website name adjustment*/
+    display: inline-block;
+    margin: 0px;
+    padding: none;
+    position: relative;
+    bottom: 18px;
+    padding-left: 5px;
+    font-size: 30px;
+    color: #5FB6A2;
+    font-family:sans-serif;
+
+}
+
+html{
+    min-width: 1440px;
+}
+
+.map{ /*positioning map in the right place*/
+    height: 600px;
+    position:relative;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.contact-form{ /*adding effcts to the contact form and positioning it*/
+    padding-left: 80px;
+    margin:0px;
+    padding-bottom:0px;
+    padding-top: 80px;
+    width: 500px;
+    background-color:#5FB6A2;
+    box-shadow: 0 0 20px 0 #164025;
+    top:40%;
+    left: 80%;
+    transform: translate(-60%,-40%);
+    position: absolute;
+    height: 500px;
+}
+
+.input{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #5FB6A2;
+    border-radius: 14px;
+    outline: none;
+
+
+}
+
+
+.input_1{
+    width: 400px;
+    height: 150px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #5FB6A2;
+    border-radius: 14px;
+    outline: none;
+    padding-bottom: 110px;
+
+    
+}
+
+.btn{ /*button to submit form*/
+    position: relative;
+    top: 10px;
+    right: 0px;
+    border-radius: 25px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color:rgb(18, 86, 18);
+    color:azure;
+}
+
+.form-color{
+    color:#164025;
+    font-size:x-large;
+}
+
+section{
+    position:relative;
+    top: 265px;
+    right: 0;
+    background-color: #164025;
+}
+
+.footer{
+    position: relative;
+    top: 8px;
+    display: inline-block;
+    right: 200px;
+
+
+}
+
+.logo{ /*footer logos*/
+    height: 15px;
+    position: relative;
+    top: 10px;
+    right: 223px;
+}

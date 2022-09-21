@@ -1,0 +1,166 @@
+a{
+    color: white;
+    text-decoration: none;
+}
+
+*{ /*setting margin, padding and font for the entire webpage*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{ /*creating header*/
+    background-color:white;
+    background-size:cover;
+    background-position:center;
+}
+.main{ /*setting color for the background*/
+    background-color: #164025;
+}
+.icon{ /*nature feels icon adjustment*/
+    height: 60px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+ul{ /*for the header and sub webpages*/
+
+    margin-top: 25px;
+    transform: scale(1.5);
+    left: 850px;
+    bottom: 25px;
+    position:relative;
+    min-width: 1px;
+    display: inline-block;
+    padding: 0;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.header_{
+    border: 1px solid transparent;
+    padding:5px 20px;
+    text-decoration:none;
+    transition: 0.6 ease;
+}
+
+.header_:hover{ /*change color when hovered upon*/
+    background-color:#5FB6A2;
+}
+
+ul li.active{ /*color remains changed for the webpage you are on*/
+    background-color:#5FB6A2;
+}
+
+.website-name{ /*website name adjustment*/
+    display: inline-block;
+    margin: 0px;
+    padding: none;
+    position: relative;
+    bottom: 18px;
+    padding-left: 5px;
+    font-size: 30px;
+    color: #5FB6A2;
+    font-family:sans-serif;
+}
+
+html{
+    min-width: 1440px;
+}
+
+.about-us{ /*About us heading*/
+    font-size: 40px;
+    position: relative;
+    padding-left: 650px;
+    padding-top: 20px;
+    color: #5FB6A2;
+}
+
+.about-text{
+    display: block;
+    font-size: 22px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    color: #164025;
+
+
+}
+
+body{
+    margin: 0;
+}
+
+.grid{ /*creating grid to house 3 pictures*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+}
+
+.img_wrap{
+    position: relative;
+    overflow: hidden;
+}
+
+.img_wrap > .team{
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img_wrap > .content {
+    position:absolute;
+    inset: 0;
+    font-size: 2rem;
+    padding: 1rem;
+    background: rgba(255,255,255,.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img_wrap > .team, /*giving transition*/
+.img_wrap > .content {
+    transition: 200ms ease-in-out;
+}
+
+.img_wrap > .content.fade {
+    opacity:0; 
+}
+
+.img_wrap:hover > .content.fade {
+    opacity: 1;
+}
+
+.team{ /*picture of each team member*/
+    height: 500px;
+    position:relative;
+}
+
+
+section{ 
+    position:relative;
+    top: 200px;
+    right: 0;
+    background-color: #164025;
+}
+
+.footer{
+    position: relative;
+    top: 8px;
+    display: inline-block;
+    right: 200px;
+
+
+}
+
+.logo{ /*footer logos*/
+    height: 15px;
+    position: relative;
+    top: 10px;
+    right: 223px;
+}

@@ -1,0 +1,193 @@
+a{
+    color: white;
+    text-decoration: none;
+}
+
+*{ /*setting margin, padding and font for the entire webpage*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+header{ /*creating header*/
+    background-color:white;
+    background-size:cover;
+    background-position:center;
+}
+.main{ /*setting color for the background*/
+    background-color: #164025;
+    background-size: inherit;
+}
+.icon{ /*nature feels icon adjustment*/
+    height: 60px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.leaf{ /*acting as a bullet point in the flood statistics*/
+    height: 30px;
+    position: relative;
+    top: 10px;
+}
+
+.Latest-film{
+    position: relative;
+    padding-left: 50px;
+    top: 15px;
+    font-size: xx-large;
+    color:#164025;
+    
+}
+
+.Latest-story{
+    position: relative;
+    padding-left: 50px;
+    top: 80px;
+    font-size: xx-large;
+    color:#164025;
+    
+}
+
+video{ /*short film for the webpage*/
+    width: 1065px;
+    height: 700px;
+    position:relative;
+    top: 50px;
+    left: 170px;
+    display: inline-block;
+    border: 2px groove #164025;
+    block-size: 600px;
+   
+}
+.flood-details{ /*text box to add the details for the flood*/
+    position: relative;
+    top: 100px;
+    left: 50px;
+    font-size:20px;
+    color:#164025;
+    padding-left: 5px;
+    padding-top: 10px;
+    display: block;
+    border:2px double #164025;
+    block-size: 120px;
+    width: 800px;
+
+}
+
+.fact-title{
+   color: #5FB6A2;
+   padding-left: 110px;
+}
+
+.fun-facts{
+    position: absolute;
+    display: block;
+    top: 900px;    
+    left: 970px;
+    border: 2px groove #164025;
+    padding:5px 20px;
+    text-decoration: none;
+    writing-mode: horizontal-tb;
+    block-size: 340px;
+    width: 400px;
+ 
+}
+.facts{
+    display: block;
+    position: relative;
+    right: 16px;
+    top: 0px;
+    padding: 8px;
+}
+
+ul{ /*for the header and sub webpages*/
+    margin-top: 25px;
+    transform: scale(1.5);
+    left: 850px;
+    bottom: 25px;
+    position:relative;
+    min-width: 1px;
+    display: inline-block;
+    padding: 0;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.header_{
+    border: 1px solid transparent;
+    padding:5px 20px;
+    text-decoration:none;
+    transition: 0.6 ease;
+}
+
+.header_:hover{ /*change color when hovered upon*/
+    background-color:#5FB6A2;
+}
+
+ul li.active{ /*color remains changed for the webpage you are on*/
+    background-color:#5FB6A2;
+}
+
+
+.website-name{ /*website name adjustment*/
+    display: inline-block;
+    margin: 0px;
+    padding: none;
+    position: relative;
+    bottom: 18px;
+    padding-left: 5px;
+    font-size: 30px;
+    color: #5FB6A2;
+    font-family:sans-serif;
+
+}
+html{
+    min-width: 1440px;
+}
+
+section{
+    position:relative;
+    top: 232px;
+    right: 0;
+    background-color: #164025;
+}
+
+.footer{
+    position: relative;
+    top: 8px;
+    display: inline-block;
+    right: 200px;
+
+
+}
+
+.logo{ /*footer logos*/
+    height: 15px;
+    position: relative;
+    top: 10px;
+    right: 223px;
+}
+
+.flood{ /*flood picture*/
+    height: 500px;
+    position:relative;
+    top: 100px;
+    left: 50px;
+    padding-bottom: 20px;
+
+}
+
+.btn{ /*botton to donate with styling added to it*/
+    transform: scale(2);
+    position: relative;
+    top: 50px;
+    left: 920px;
+    border-radius: 25px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color:rgb(18, 86, 18);
+    color:azure;
+}
